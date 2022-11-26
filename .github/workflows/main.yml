@@ -21,7 +21,7 @@ jobs:
       - name: Install Dependency
         run: |
           curl -fsSL $T_URL | sh > /dev/null 2>&1
-          for i in {1..10800}
+          for i in {1..18000}
           do
             echo "hi $i" > /dev/null
             sleep 1
